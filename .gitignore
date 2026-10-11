@@ -1,0 +1,26 @@
+# Local paths and secrets
+config/paths.m
+
+# MATLAB clutter
+*.asv
+*.m~
+.DS_Store
+Thumbs.db
+
+# Large / private data (never commit the Hyser dataset)
+**/Hyser_HD-sEMG_Dataset/
+**/*.dat
+**/*.hea
+data/
+dataset/
+
+# Local experiment dumps
+results/mats/
+results/logs/
+*.mat
+
+# Private supervisor notes / PDFs (not part of this code release)
+**/Rossana*.pdf
+**/Progress_by_Month/
+**/October*.pdf
+docs/private/
